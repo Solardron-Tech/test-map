@@ -2,12 +2,11 @@
   "name": "test-map",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
   },
   "devDependencies": {
-    "vite": "^2.6.7"
+    "parcel": "^2.0.0"
   },
   "dependencies": {
     "ol": "latest"
